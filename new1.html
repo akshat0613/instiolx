@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instioxl</title>
+</head>
+    </head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        .container {
+            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 30px;
+        }
+    
+        .input {
+            background-color: white;
+            border: 2px solid rgb(193, 183, 183);
+            margin: 30px;
+            height: 88vh;
+            width: 30%;
+            padding: 30px;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+    
+        nav {
+            color: green;
+            font-size: 5vw;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    
+        nav h1 {
+            margin: 0;
+            font-size: inherit;
+        }
+    
+        .first {
+            color: green;
+            font-size: 23px;
+            padding: 10px;
+            text-decoration: underline dotted;
+            margin: 0 5px;
+            text-transform: capitalize;
+        }
+    
+        form {
+            margin-top: 20px;
+            color: green;
+            font-weight: 700;
+        }
+    
+        input[type="text" ],
+        input[type="number"],
+        input[type="date"],
+        input[type="file"],
+        textarea {
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+
+        }
+    
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+    
+        label {
+            margin-top: 10px;
+            display: block;
+        }
+        .second{
+            color: dark green;
+        }
+    </style>
+    
+    <body>
+        <div class="container">
+            <div class="input">
+                <nav>
+                    <h1>instiolx</h1>
+                </nav>
+                <p class="first">sell the products you feel to be extra</p>
+                <form>
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description" rows="4" required></textarea>
+    
+                    <label for="price">Price:</label>
+                    <input type="number" id="price" name="price" required>
+    
+                    <label for="buyingDate">Buying Date:</label>
+                    <input type="date" id="buyingDate" name="buyingDate" required>
+    
+                    <label for="buyingPrice">Buying Price:</label>
+                    <input type="number" id="buyingPrice" name="buyingPrice" required>
+    
+                    <label for="details">Your Details:</label>
+                    <textarea id="details" name="details" rows="4" required></textarea>
+    
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="text" id="phoneNumber" name="phoneNumber" required>
+    
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location" required>
+    
+                    <label for="productPhotos">Upload product photos:</label>
+                    <input type="file" id="productPhotos" name="productPhotos" accept="image/*" multiple required>
+    
+                    <input type="submit" value="Post">
+                </form>
+            </div>
+        </div>
+    </body>
+    
+    </html>
+   
+</head>
+
+<body>
+    
+</body>
+</html>
